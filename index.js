@@ -23,7 +23,7 @@ function setGame() {
         document.getElementById("board").appendChild(tile);
     }
     setInterval(setRabbit, 1000); // 1sec
-    setInterval(setPlant, 1000);
+    setInterval(setPlant, 2000);
 }
 
 
